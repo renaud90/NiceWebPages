@@ -1,0 +1,29 @@
+h1 {
+    line-height:100px;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+}
+
+.upperRow{
+    border-bottom: 1px solid black;
+}
+
+.lowerRow{
+    border-top: 1px solid black;
+}
+
+.cellLeft{
+    border-right: 1px solid black;
+}
+
+.cellRight{
+    border-left: 1px solid black;
+}

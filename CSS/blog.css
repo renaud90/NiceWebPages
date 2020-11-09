@@ -1,0 +1,44 @@
+#shell{
+    max-width:800px;
+    width:90%;
+    margin: 25px auto;
+    border:15px solid lightgray;
+}
+
+.article{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.date{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #A3D3FC;
+    text-transform: uppercase;
+    margin-left: 2%;
+    letter-spacing: 2px;
+}
+
+.title{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#283046;
+    margin-left: 2%;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.firstParagraph{
+    border-left:8px solid lightgray;
+    padding-left: 2%;
+}
+
+hr{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-left: 2%;
+    margin-right: 2%;
+}
