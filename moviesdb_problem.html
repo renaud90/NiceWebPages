@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Movies</title>
+    </head>
+    <body>
+        <h1>Movies DB</h1>
+
+        <script>
+            moviesDB = [
+                movie1 = {
+                    title: "\"Titanic\"",
+                    ratings: "4.5 stars",
+                    hasWatched: true
+                },
+                movie2 = {
+                    title: "\"Star Wars\"",
+                    ratings: "3 stars",
+                    hasWatched: false
+                },
+                movie3 = {
+                    title: "\"Lord of the Rings\"",
+                    ratings: "4 stars",
+                    hasWatched: true
+                }
+            ]
+        
+        moviesDB.forEach(function(movie){
+            buildString(movie);
+        })
+
+        function buildString(movie){
+            var result = "You have " ;
+            if(movie.hasWatched){
+                result += "watched "; }
+            else{
+                result += "not seen "; }
+            result +=  movie.title + " - " + movie.ratings
+            console.log(result);
+        }
+        
+        </script>
+    </body>
+
+</html>

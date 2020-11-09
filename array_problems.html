@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Array Exercises</title>
+    </head>
+    <body>
+        <h1>Open console</h1>
+        
+        <script>
+        //verifyes if all the element of an array are the same
+        function printReverse(anArray){
+            for(var i = (anArray.length - 1); i >= 0; i--){
+                console.log(anArray[i]);
+            }
+        }
+        
+        function isUniform(anArray){
+            //value to compare
+            var firstValue = anArray[0];
+            var compare = true;
+            //looping over the array to compare the value with the others
+            anArray.forEach(function(element){
+                if (firstValue !== element){
+                    compare = false;
+                }
+            })
+            return compare;
+        }
+
+        function sumArray(anArray){
+            var sum = 0;
+            anArray.forEach(function(number){
+                sum += number;
+            })
+            return sum
+        }
+
+        function max(anArray){
+            var maxVal = anArray[0];
+            anArray.forEach(function(number){
+                if (number > maxVal){
+                    maxVal = number;
+                }
+            })
+            return maxVal
+        }
+        </script>
+    </body>
+
+</html>

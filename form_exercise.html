@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Resgister form</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+
+        <form action='form_exercise.html' method='get'>
+        <div>
+            <label>First name: <input type='text' name='firstName' required></label>
+            <label>Last name: <input type='text' name='LastName' required></label>
+        </div>
+            <label>Male: <input type='radio' name='gender' value='Male'></label>
+            <label>Female: <input type='radio' name='gender' value='Female'></label>
+            <label>Other: <input type='radio' name='gender' value='Other'></label>
+            <br>
+            <label>Email adress: <input type='email' name='emailAdress' required></label>
+            <label>Password: <input type='password' name='password' required minlength='5' maxlength="10"></label>
+            <br>
+            <label>Birthday: 
+                <select name='month'>
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                </select>
+                <select name='day'>
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+                <select name='year'>
+                    <option>Year</option>
+                    <option>1990</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                </select>
+            </label>
+            <br>
+            <label>I agree to the terms and conditions <input type='checkbox' name='agreement' value='agree' required></label>
+            <br>
+            <input type='submit'>
+        </form>
+    </body>
+
+</html>
